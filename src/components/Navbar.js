@@ -5,7 +5,7 @@ const Navbar = ({ brand }) => {
     <div>
       <nav className="navbar navbar-dark bg-dark mt-0 d-flex flex-row justify-content-center">
       <div id="titulo" className="">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand fw-bold" href="/">
             {brand}
           </a>
         </div>
