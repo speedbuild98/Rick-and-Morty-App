@@ -16,13 +16,13 @@ const pagination = ({prev, next, onPrevious, onNext}) => {
         {
           prev ? (
         <li className='page-item'>
-          <button className='page-link' onClick={handlePrevious}>Anterior</button>
+          <button className='page-link' onClick={handlePrevious}>Previous</button>
         </li>
         ) : null}
         { 
           next ? (
         <li li className='page-item'>
-        <button className='page-link' onClick={handleNext}>Siguiente</button>
+        <button className='page-link' onClick={handleNext}>Next</button>
         </li>
         ) : null}
       </ul>

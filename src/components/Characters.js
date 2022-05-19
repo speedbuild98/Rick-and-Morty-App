@@ -17,8 +17,8 @@ export const Characters = ({characters = []}) => {
                         <p className='text-secondary'>ID {item.id}</p>
                       </div>
                       <div className='text-white'>  
-                        <p>Especie: {item.species}</p>
-                        <p>Ubicación: {item.location.name}</p>                              
+                        <p>Specie: {item.species}</p>
+                        <p>Location: {item.location.name}</p>                              
                      </div>            
                   </div>
                 </div>
