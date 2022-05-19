@@ -1,4 +1,4 @@
-import React, {useEffect, usesState, useState} from "react";
+import React, {useEffect, useState} from "react";
 import Navbar from "./components/Navbar"
 import Characters from "./components/Characters";
 import Pagination from "./components/Pagination";
