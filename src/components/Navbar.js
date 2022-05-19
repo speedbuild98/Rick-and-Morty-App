@@ -10,8 +10,8 @@ const Navbar = ({ brand }) => {
           </a>
         </div>
         <div className="">
-        <a
-            href="https://devgallardo.netlify.app/"
+        <a  href="https://devgallardo.netlify.app/"
+            rel="noreferrer"
             target="_blank"
             className="home__social-icon text-info"
           >
@@ -20,6 +20,7 @@ const Navbar = ({ brand }) => {
           <a
             href="https://www.linkedin.com/in/lautagallardogg/"
             target="_blank"
+            rel="noreferrer"
             className="home__social-icon linkedinxd text-info"
           >
             <i className="uil uil-linkedin p-2"></i>
@@ -27,6 +28,7 @@ const Navbar = ({ brand }) => {
           <a
             href="https://github.com/speedbuild98"
             target="_blank"
+            rel="noreferrer"
             className="home__social-icon"
           >
             <i className="uil uil-github-alt p-2 text-info"></i>
@@ -34,6 +36,7 @@ const Navbar = ({ brand }) => {
           <a
             href="https://cafecito.app/speedbuild"
             target="_blank"
+            rel="noreferrer"
             className="home__social-icon"
           >
             <i className="uil uil-coffee p-2 text-info"></i>
