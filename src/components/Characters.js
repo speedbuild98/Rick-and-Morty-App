@@ -6,7 +6,7 @@ export const Characters = ({characters = []}) => {
           {
             characters.map((item, index) => (
               <div key={index} className='col mb-4'>
-                <div className="card" style={{minWidth: "200px"}}>
+                <div className="card border rounded" style={{minWidth: "200px"}}>
                   <img className="card-img-top" src={item.image} alt=""/>
                   <div className='card-body'>
                     <h5 className='card-title'> {item.name} </h5>
